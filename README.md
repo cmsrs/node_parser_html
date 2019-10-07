@@ -11,7 +11,7 @@ Node.js: Parse html - client server app
    $cd ./node_parser_html
    ```
 
-2. Installing Node Modules for server
+2. Installing dependents 
 
    ```shell
    $npm install
