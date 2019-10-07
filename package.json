@@ -9,7 +9,10 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "mocha": "^6.2.1",
-    "nodemon": "^1.19.3"
+    "nodemon": "^1.19.3",
+    "swagger": "^0.7.5",
+    "swagger-ui": "^3.23.11",
+    "swagger-ui-express": "^4.1.2"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",

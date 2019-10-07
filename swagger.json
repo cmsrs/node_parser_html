@@ -1,0 +1,99 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Parse Html",
+    "description": "Parse Html",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/api",
+  "tags": [
+    {
+      "name": "Parser",
+      "description": "API - parser Html"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/parser": {
+
+      "post": {
+        "tags": [
+          "parser"
+        ],
+        "description": "Create Html",
+        "parameters": [
+          {
+            "name": "parser",
+            "in": "body",
+            "description": "Parse html for given parameters",
+            "schema": {
+              "$ref": "#/definitions/Parser"
+            }
+          }
+
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Parser html"
+          }
+        }
+      },
+
+
+      "get": {
+        "tags": [
+          "parser"
+        ],
+        "summary": "Get parse string",
+        "responses": {
+          "200": {
+            "description": "Get parse string"
+          }
+        }
+      }
+    }
+  },
+
+  "definitions": {
+    "Parser": {
+      "required": [
+        "html"
+      ],
+      "properties": {
+        "html": {
+          "type": "string"
+        },
+        "keys": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties":{
+                "key":{
+                  "type": "string"
+                },
+                "url":{
+                  "type": "string"
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+}

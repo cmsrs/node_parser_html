@@ -14,7 +14,7 @@
       const objIn = req.body;
       const v = p.validate( objIn );
       if(!v){
-        res.status(200).json({status:"err",data:"wrong data in input" });
+        res.status(200).json({status:"err",data:"wrong input data" });
       }
       const out =  p.parseHtml( objIn );
       p.saveStrToFile(out, () => {
