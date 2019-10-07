@@ -34,7 +34,7 @@ Node.js: Parse html - client server app
    ```shell
    $cd scripts
    $./post.sh
-   $./get
+   $./get.sh
    ```
 
 
