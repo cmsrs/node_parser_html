@@ -29,7 +29,7 @@ Node.js: Parse html - client server app
    $npm test
    ```
 
-5. bash test
+5. Bash test
 
    ```shell
    $cd scripts
