@@ -11,7 +11,7 @@ Node.js: Parse html - client server app
    $cd ./node_parser_html
    ```
 
-2. Installing dependents 
+2. Installing dependents
 
    ```shell
    $npm install
@@ -23,7 +23,7 @@ Node.js: Parse html - client server app
    $npm start
    ```
 
-4. Test app 
+4. Test app
 
    ```shell
    $npm test
@@ -37,7 +37,8 @@ Node.js: Parse html - client server app
    $./get.sh
    ```
 
+###SWAGGER
 
-
-
-
+  ```shell
+  http://localhost:3000/api-docs/
+  ```
