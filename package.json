@@ -1,0 +1,20 @@
+{
+  "name": "node_parser_html",
+  "version": "1.0.0",
+  "description": "parser html by using api",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mocha": "^6.2.1",
+    "nodemon": "^1.19.3"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "nodejs server.js"
+  },
+  "author": "Robert Szczepanski",
+  "license": "ISC"
+}
